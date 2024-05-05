@@ -1,0 +1,75 @@
+body{  
+    margin: 0;
+}
+#mainContainer{
+    background-color: rgb(182, 181, 181);
+    margin: 0;
+}
+#submitButton{
+    border: none;
+}
+#submitButton:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.navigation{
+    background-color: black;
+    color: white;
+    height: 40px;
+    display: fixed;
+}
+#navi-li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: medium;
+}
+ul li{
+    width: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+.submit{
+    margin-top: 10px;
+}
+p, h2{
+    margin-bottom: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+div{
+    padding: 8px;
+}
+@media(min-width:375px){
+    header{
+        margin-bottom: 8px;
+    }
+   .email{
+    display: flex;
+    flex-direction: row;
+   }
+   #email{
+    height: fit-content;
+   }
+   p{
+    margin: 0 15px 0 0;
+   }
+   .submit{
+    margin: 0;
+   }
+}
+@media (min-width:768px) {
+    header{
+        text-align: center;
+    }
+    #main-div{
+        display: grid;
+        place-items: center;
+    }
+}

@@ -1,0 +1,72 @@
+button{
+    margin-top: 10px;
+}
+.first-name1{
+    margin:40px 0 0 0;
+}
+.first-name{
+    margin:5px 0 0 0;
+}
+.navigation{
+    background-color: black;
+    color: white;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#navi-li{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    display:flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: medium;
+}
+ul li{
+    width: 50%;
+    line-height: 40px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+div button a{
+    color: black;
+}
+@media (min-width:425px) {
+    #email, #password{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 15px;
+    }
+    #email-input{
+        height: fit-content;
+        bottom: 0;
+        
+    }
+    #email{
+        margin-top: 5px;
+        height: fit-content;
+    }
+    .first-name1,.first-name{
+        margin: 0 10px 0 0;
+    }
+    button{
+        margin: 0;
+    }
+    #main-div{
+        padding: 10%;
+    }
+}
+@media (min-width:768px){
+    #main-div{
+        padding: 5%;
+        display: grid;
+        place-items: center;
+    }
+}
